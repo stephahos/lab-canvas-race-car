@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   text-align: center;
 }
@@ -35,4 +38,10 @@ body button {
 #game-board {
     float: left;
     padding: 20px 0px;
+}
+
+#canvas {
+  display: block;
+  justify-content: center;
+  text-align:center;
 }
